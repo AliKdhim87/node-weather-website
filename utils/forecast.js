@@ -11,7 +11,9 @@ const forecast = (latitude, longitude, callback) => {
                 icon: body.daily.data[0].icon,
                 summary: body.daily.data[0].summary,
                 temperature: body.currently.temperature,
-                precipProbability: body.daily.data[0].precipProbability
+                precipProbability: body.daily.data[0].precipProbability,
+                temperatureMin: body.daily.data[0].temperatureMin,
+                temperatureMax: body.daily.data[0].temperatureMax
 
             });
         }

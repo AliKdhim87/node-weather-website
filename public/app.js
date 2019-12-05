@@ -15,9 +15,10 @@ weatherForm.addEventListener('submit', (e) => {
                 img.src = '';
                 locationName.textContent = '';
             } else {
-                forecast.textContent = `${data.forecast.summary} It is currently  ${Math.floor(data.forecast.temperature)}  °C . There is a ${data.forecast.precipProbability} % chance of rain `;
+                forecast.textContent = `${data.forecast.summary} It is currently  ${Math.floor(data.forecast.temperature)}  °C. 
+                The hight tody is ${Math.floor(data.forecast.temperatureMax)}°C  with a low of ${Math.floor(data.forecast.temperatureMin)}°C  There is a ${data.forecast.precipProbability} % chance of rain `;
                 locationName.textContent = data.location;
                 img.src = `/animated/${data.forecast.icon}.svg`
             }
         })
-})
+});
