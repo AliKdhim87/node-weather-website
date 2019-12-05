@@ -7,7 +7,7 @@ const img = document.querySelector('img');
 weatherForm.addEventListener('submit', (e) => {
     const location = myInput.value
     e.preventDefault();
-    fetch(`http://localhost:3000/weather?adress=${encodeURIComponent(location)}`)
+    fetch(`/weather?adress=${encodeURIComponent(location)}`)
         .then(res => res.json())
         .then(data => {
             if (data.error) {
