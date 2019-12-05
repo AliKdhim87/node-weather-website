@@ -1,0 +1,62 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background: black !important;
+}
+
+nav .navbar-brand {
+    font-family: 'Patrick Hand', cursive;
+    color: blue !important;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+}
+
+nav .navbar-brand span {
+    color: white;
+}
+
+header {
+    background: url(/img/background.jpg);
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 150px;
+}
+
+footer {
+    display: block;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Patrick Hand', cursive;
+    background: black !important;
+}
+
+footer a {
+    color: white;
+}
+
+@media(max-width:575px) {
+    header h1 {
+        font-size: 1.8rem;
+        ;
+    }
+}
+
+
+/* .not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vh;
+} */
