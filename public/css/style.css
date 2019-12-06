@@ -19,7 +19,7 @@ nav .navbar-brand span {
 
 header {
     background: url(/img/background.jpg);
-    height: 30vh;
+    height: 180px;
     background-position: center;
     background-size: cover;
     color: white;
@@ -49,14 +49,13 @@ footer a {
 @media(max-width:575px) {
     header h1 {
         font-size: 1.8rem;
-        ;
+    }
+    footer {
+        position: relative;
     }
 }
 
-
-/* .not-found {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90vh;
-} */
+.show-weather {
+    min-height: 250px;
+    padding: 1rem;
+}
