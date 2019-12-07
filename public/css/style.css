@@ -17,9 +17,13 @@ nav .navbar-brand span {
     color: white;
 }
 
+img {
+    width: 100px;
+}
+
 header {
     background: url(/img/background.jpg);
-    height: 180px;
+    height: 20vh;
     background-position: center;
     background-size: cover;
     color: white;
@@ -28,11 +32,8 @@ header {
     justify-content: center;
 }
 
-img {
-    width: 150px;
-}
-
 footer {
+    margin-top: 20px;
     display: block;
     color: #fff;
     position: absolute;
@@ -50,12 +51,8 @@ footer a {
     header h1 {
         font-size: 1.8rem;
     }
-    footer {
-        position: relative;
-    }
 }
 
 .show-weather {
-    min-height: 250px;
-    padding: 1rem;
+    height: 60vh;
 }
